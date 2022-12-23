@@ -1,0 +1,12 @@
+.bottom_nav{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  height: 60px;
+  padding: 8px;
+  background: #fcfcfc;
+}
+
+.bottom_nav a{
+  margin: 0px 24px;
+}

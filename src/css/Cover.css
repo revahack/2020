@@ -1,0 +1,177 @@
+body {
+  overflow-x: hidden;
+}
+
+.cover {
+  color: #fcfcfc;
+  height: 100vh;
+  padding: 0vh 0 0 6rem;
+  text-align: left;
+  background-image: url("../images/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.cover *:not(hr) {
+  margin-left: 2rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.cover hr {
+  width: 250px;
+  border: 1px solid white;
+  color: #1d1d37;
+}
+
+.cover * {
+  display: inline-block;
+}
+
+
+div.cover-container{
+   position: relative;
+   top: 25vh;
+   left: -2%;
+}
+
+
+
+sup {
+  position: relative;
+  bottom: 4px;
+  right: 15px;
+}
+
+sub {
+  position: relative;
+  right: 99px;
+  top: 10px;
+}
+
+#devfolio-apply-now {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #3770ff;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#devfolio-apply-now:not([disabled]) {
+  cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+  background-color: #2954bf !important;
+}
+
+.discord {
+  color: #7289d9;
+  width: 265.55px;
+  height: 48px;
+  margin-top: 2rem;
+  background-color: #fcfcfc;
+  display: flex;
+  padding: 1px 20px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord span {
+  margin-left: 0;
+}
+
+.discord img {
+  width: 35px;
+  height: auto;
+  margin-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .cover {
+    background-image: url("../images/cover-phone.png");
+    height: 100vh;
+  }
+
+  .cover,
+  .cover * {
+    text-align: center;
+    padding: 0rem 0 0;
+  }
+
+  .cover *:not(hr) {
+    margin-left: 0;
+  }
+
+  .cover p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .cover hr {
+    display: none;
+    border: 1px solid white;
+    color: #1d1d37;
+  }
+
+  .cover h1 {
+    font-size: 2.3rem;
+  }
+
+  .cover h4 {
+    padding-top: 0px;
+    font-size: 1.5rem;
+  }
+
+  div.cover-container{
+    position: relative;
+    top: 20vh;
+    left: -2%;
+ }
+
+  sup {
+    position: relative;
+    bottom: 4px;
+    left: 33px;
+  }
+
+  sub {
+    position: relative;
+    left: 0px;
+    top: 10px;
+  }
+
+  #devfolio-apply-now {
+    height: 60px;
+    width: 265.55px;
+  }
+
+  a.discord,
+  #devfolio-apply-now {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .discord img {
+    margin-left: 10px;
+  }
+
+
+}

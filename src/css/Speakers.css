@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+}
+
+.speakers{
+    padding: 0 10px;
+}
+p{
+  font-size: 22px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.speakers * {
+    text-align: center;
+}
+.row1{
+  display: flex;
+  justify-content: center;
+}
+.row2{
+  display: flex;
+  justify-content: center;
+}
+.spk_img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.nametag{
+  width: auto;
+  margin-left: 0px;
+}
+.spkinfo{
+  margin-left: 10px;
+  width: 90%;
+  padding: 10px;
+}
+@media (max-width: 770px) {
+
+.spk_img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.nametag{
+  width: auto;
+  margin-left: 0px;
+  font-size: 3vh;
+}
+.spkinfo{
+  width: auto;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 0.8;
+}
+}
+@media (max-width: 640px) {
+
+.spk_img{
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+}
+.nametag{
+  width: auto;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.spkinfo{
+  display: none;
+}
+}
+
+.spk{
+  padding: 5vh 0px;
+}
+
+.spk img{
+  filter: grayscale(100%);
+  transition: 300ms;
+}
+.spk img:hover{
+  filter: grayscale(0%);
+  transition: 300ms;
+}
+h6{
+  padding: 10px 0px;
+}

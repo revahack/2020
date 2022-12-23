@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Barlow", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+}
+
+.middle {
+  position: relative;
+  top: 50vh;
+  width: 90%;
+  float: right;
+  line-height: 40px;
+}
+.middle a {
+  font-size: 24px;
+}
+
+.teams {
+  width: 60%;
+  display: block;
+  margin: auto;
+  max-height: 100vh;
+}
+
+.teams * {
+  font-family: "Barlow", sans-serif;
+}
+
+.teams .team-card {
+  cursor: pointer;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+}
+
+.teams .team-card p {
+  color: black;
+  margin-top: 12px;
+  background: #fcfcfc;
+  height: 20px;
+  padding: 20px;
+  margin-top: -3px;
+}
+
+.speaker-btn {
+  cursor: pointer;
+  background-color: #1a27c9;
+  display: block;
+}
+
+.modal_content {
+  background-color: #101010;
+}
+
+.page_container p {
+  white-space: normal;
+  line-height: 1.2rem;
+  text-align: left;
+}
+
+/*.member {
+  display: inline-block;
+  width: 25%;
+  margin: 0.5rem 1rem;
+}*/
+
+.member p {
+  text-align: center;
+}
+
+.modal_content {
+  margin-top: 8%;
+}
+
+@media (max-width: 639px) and (min-width: 280px) {
+  .small12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .teams * {
+    text-align: center;
+  }
+  .modal_content {
+    width: 95%;
+  }
+  .member {
+    display: inline-block;
+    width: 70%;
+  }
+  .modal_content {
+    margin-top: 20%;
+  }
+}

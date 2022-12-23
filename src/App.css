@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+}
+
+a::before, a:hover::before, .pivot_button::before, .pivot_button:hover::before{
+  background: transparent;
+}
+.associate{
+  width: 460px;
+  display: block;
+}
+
+@media (max-width: 480px){
+  .associate{
+    width: 86vw;
+    display: block;
+  }
+}
+.primary_inverted {
+  background: #131313;
+}  
+
+
+/*
+@media(prefers-color-scheme: light){
+  .primary_inverted {
+    background: #1313F3;
+  }  
+  :root{
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  .cover, img:not(.def){
+    filter: invert(100%) hue-rotate(180deg);
+  }
+  .trackimg{
+    filter: invert(100%) hue-rotate(180deg);
+  }
+}
+*/
